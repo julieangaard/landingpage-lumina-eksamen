@@ -2,25 +2,35 @@
 /* CSS-VARIABLER */
 
 :root {
-    /* INDSÆT CSS-KODE 1 HER */
+    /* colors */
 --primary-color:#DAA691;
 --secondary-color:#533E3A;
+
+
 --white:#ffffff;
+--dustyrosa: #BB8585; 
+--warmpeach: #DAA691; 
+--lightcreme: #F1ECCE; 
+--lightgreen: #D8CE93; 
+--olivegreen: #A8A383;
+--darkbordeaux: #833B3A; 
 
 
-    --font-size-small: 13px;
-    --font-size-base: 16px;
-    --font-size-medium: 18px;
-    --font-size-large: 20px;
-    --font-size-xl: 24px;
-    --font-size-xxl: 28px;
-    --font-size-hero: 4.5rem;
-    --font-size-hero-tablet: 3rem;
-    --font-size-hero-mobile: 2.5rem;
-    --font-weight-normal: 400;
-    --font-weight-medium: 500;
-    --font-weight-semibold: 600;
-    --font-weight-bold: 700;
+/* fonts */
+--font-size-small: 13px;
+--font-size-base: 16px;
+--font-size-medium: 18px;
+--font-size-large: 20px;
+--font-size-xl: 24px;
+--font-size-xxl: 28px;
+--font-size-hero: 4.5rem;
+--font-size-hero-tablet: 3rem;
+--font-size-hero-mobile: 2.5rem;
+
+--font-weight-normal: 400;
+--font-weight-medium: 500;
+--font-weight-semibold: 600;
+--font-weight-bold: 700;
 }
 
 
