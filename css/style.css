@@ -453,3 +453,16 @@ img{
 }
 
 
+/* app */
+.app-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 80px 8%;
+    gap: 50px;
+    background-color: var(--offwithe);
+}
+
+
+
