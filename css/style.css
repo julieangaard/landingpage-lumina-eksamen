@@ -369,7 +369,6 @@ img{
     margin-bottom: 10px;
 }
 
-.led-section > p {
     font-family: "Roboto", sans-serif;
     font-size: var(--font-size-large);
     color: var(--secondary-color);
