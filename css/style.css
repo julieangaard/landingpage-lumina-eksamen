@@ -220,7 +220,19 @@ img{
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
+/* PRODUCT INTRO */
+.product-intro {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 80px 8%;
+    gap: 50px;
+}
 
+.product-intro-content {
+    flex: 1;
+}
 
 
 
