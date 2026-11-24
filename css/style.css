@@ -556,3 +556,22 @@ img{
     transform: translateY(-2px);
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
+
+/* made to move */
+.made-to-move-section {
+    position: relative;
+    width: 100%;
+}
+
+.made-to-move-section img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.made-to-move-section h2 {
+    position: absolute;
+    top: 50%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+}
