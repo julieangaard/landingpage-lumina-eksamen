@@ -433,4 +433,23 @@ img{
 
 .other-products-grid .product-card {
     flex: 0 0 280px;
+    background-color: transparent;
+    border: 1px solid var(--white);
+    padding: 20px;
 }
+
+.other-products-grid .product-card img {
+    width: 100%;
+    height: 280px;
+    object-fit: contain;
+}
+
+.other-products-grid .product-card p {
+    font-family: "Roboto", sans-serif;
+    font-size: var(--font-size-base);
+    color: var(--secondary-color);
+    margin-top: 8px;
+    text-align: center;
+}
+
+
