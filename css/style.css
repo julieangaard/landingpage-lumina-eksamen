@@ -350,6 +350,25 @@ img{
     align-items: center;
 }
 
+/* LED section */
+.led-section {
+    width: 100%;
+    padding: 80px 8%;
+    background-color: var(--lightcreme);
+}
 
+.led-section h2 {
+    font-family: "Lora", serif;
+    font-size: 100px;
+    font-weight: var(--font-weight-normal);
+    color: var(--secondary-color);
+    margin-bottom: 10px;
+}
 
+.led-section > p {
+    font-family: "Roboto", sans-serif;
+    font-size: var(--font-size-large);
+    color: var(--secondary-color);
+    margin-bottom: 40px;
+}
 
