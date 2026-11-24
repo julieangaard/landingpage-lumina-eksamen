@@ -11,6 +11,7 @@
 --offwithe: #F7F6F1; 
 --dustyrosa: #BB8585; 
 --warmpeach: #DAA691; 
+--darkpeach: #B07B65; 
 --lightcreme: #F1ECCE; 
 --lightgreen: #D8CE93; 
 --olivegreen: #A8A383;
@@ -148,7 +149,7 @@ img{
 
 .review {
     position: absolute;
-    width: 50px;
+    width: 250px;
     height: auto;
     right: 2%;
     top: 4%;
@@ -169,18 +170,18 @@ img{
 
 .hero-content h1 {
     color: var(--white);
-    font-size: 120px;
-    font-weight: var(--font-weight-normal);
+    font-size: 50px;
+    font-weight: var(--font-weight-bold);
     text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
-    font-family: "Lora", serif;
+    font-family: "Roboto", sans-serif;
     margin-bottom: -15px;
 }
 
 .hero-content h2 {
     color: var(--white);
-    font-size: 47px;
+    font-size: 70px;
     font-weight: var(--font-weight-normal);
-    font-family: "Roboto", sans-serif;
+    font-family: "Taprom", cursive;
     text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
     display: flex;
     flex-direction: column;
@@ -202,7 +203,7 @@ img{
     border: none;
     border-radius: 999px;
     background-color:var(--primary-color);
-    color:#533E3A;
+    color: var(--secondary-color);
     font-size: 28px;
     font-weight: var(--font-weight-semibold);
     font-family: "Roboto", sans-serif;
@@ -214,7 +215,7 @@ img{
 }
 
 .hero-button:hover {
-    background-color: #B07B65;
+    background-color: var(--darkpeach);
     transform: translateY(-2px);
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
