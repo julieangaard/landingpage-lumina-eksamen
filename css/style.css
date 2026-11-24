@@ -416,3 +416,21 @@ img{
     margin: 0;
     text-align: center;
 }
+
+/* other products */
+.other-products-section {
+    width: 100%;
+    padding: 80px 8%;
+    background-color: var(--offwithe);
+}
+
+.other-products-grid {
+    display: flex;
+    gap: 30px;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.other-products-grid .product-card {
+    flex: 0 0 280px;
+}
