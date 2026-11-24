@@ -470,5 +470,21 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+}
+
+.app-circle {
+    position: absolute;
+    z-index: 1;
+    width: 550px;
+    height: 750px;
+    border-radius: 50%;
+    background-color: var(--dustyrosa);
+}
+
+.app-container img {
+    position: relative;
+    z-index: 2;
+    margin-top: 150px;
 }
 
