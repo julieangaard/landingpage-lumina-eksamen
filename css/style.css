@@ -355,6 +355,10 @@ img{
     width: 100%;
     padding: 80px 8%;
     background-color: var(--lightcreme);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
 }
 
 .led-section h2 {
