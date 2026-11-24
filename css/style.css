@@ -534,3 +534,19 @@ img{
     color: var(--secondary-color);
     text-align: center;
 }
+
+.app-button {
+    display: inline-block;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 999px;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    font-size: 20px;
+    font-weight: var(--font-weight-semibold);
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 30px;
+}
